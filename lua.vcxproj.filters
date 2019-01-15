@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{9cc92141-f3ba-4656-b369-8cccc3713a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaBridge">
+      <UniqueIdentifier>{c9decbb8-cfbd-4cce-bb10-21e685e4d0fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\LuaBridge\List.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\LuaBridge.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\Map.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\RefCountedObject.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\RefCountedPtr.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\Vector.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\CFunctions.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\ClassInfo.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\Constructor.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\dump.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\FuncTraits.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\Iterator.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\LuaException.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\LuaHelpers.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\LuaRef.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\Namespace.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\Security.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\Stack.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\TypeList.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\TypeTraits.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBridge\detail\Userdata.h">
+      <Filter>LuaBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA.hpp">
+      <Filter>Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\Lua51.lib">
+      <Filter>Lua</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.lua" />
+  </ItemGroup>
+</Project>
